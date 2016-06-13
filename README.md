@@ -1,1 +1,1 @@
-TOPF is Application "transport of Personal File"
+TOPF is Android Application "transport of Personal File"
