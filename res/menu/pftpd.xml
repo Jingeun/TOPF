@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- 재생 버튼 -->
+    <item
+        android:id="@+id/menu_start"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/startService"
+        android:icon="@android:drawable/ic_media_play" />
+
+    <!-- 정지 버튼 -->
+    <item
+        android:id="@+id/menu_stop"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/stopService"
+        android:icon="@android:drawable/ic_media_pause" />
+
+    <!-- 환경설정 버튼 -->
+    <item
+        android:id="@+id/menu_prefs" 
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/prefs"
+        android:icon="@android:drawable/ic_menu_preferences" />
+</menu>

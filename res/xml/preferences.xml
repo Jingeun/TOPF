@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/prefCategoryTitle">
+		<EditTextPreference
+			android:name="user_name"
+			android:key="userNamePref"
+			android:defaultValue="TOPF"
+			android:title="@string/prefTitleUser"
+			android:summary="@string/prefSummaryUser"
+		/> <!-- Value값 지정 -->
+		<org.primftpd.EncryptingEditTextPreference
+			android:name="password"
+			android:key="passwordPref"
+			android:title="@string/prefTitlePassword"
+			android:summary="@string/prefSummaryPassword"
+			android:password="true"
+		/>
+		<EditTextPreference
+			android:name="port"
+			android:key="portPref"
+			android:defaultValue="12345"
+			android:title="@string/prefTitlePort"
+			android:summary="@string/prefSummaryPort"
+			android:numeric="integer"
+		/>
+	</PreferenceCategory>
+
+</PreferenceScreen>

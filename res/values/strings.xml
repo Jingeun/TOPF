@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TOPF</string>
+    <string name="ifacesLabel">Network Interface</string>
+    <string name="ipAddrLabel">IP Address</string>
+    <string name="ifacesError">Error: </string>
+    <string name="protocolLabel">Protocol</string>
+    <string name="portLabel">Port</string>
+    <string name="fingerprintsLabel">SSL Certificate Fingerprints</string>
+        
+    <string name="startService">Start Server</string>
+    <string name="stopService">Stop Server</string>
+    <string name="notificationTitle">TOPF</string>
+    <string name="exit">Exit</string>
+
+    <string name="haveToSetPassword">초기 비밀번호를 설정하시길 바랍니다.</string>
+    <string name="serverRunning">TOPF : FTP Server 실행 중</string>
+    <string name="serverCouldNotBeStarted">서버를 시작할 수 없습니다! 에러 메시지: </string>
+    <string name="portInvalid">Port가 유효하지 않습니다. 기본값으로 설정됩니다.</string>
+    <string name="portsEqual">Port가 동일하지 않습니다. 기본값으로 설정됩니다.</string>
+    <string name="restartServer">변경을 위해 서버를 재시작 해주시기 바랍니다.</string>
+
+    <string name="prefs">설정</string>
+    <string name="prefCategoryTitle">TOPF 환경설정</string>
+    <string name="prefTitleUser">User name 변경</string>
+    <string name="prefSummaryUser">FTP server user name</string>
+    <string name="prefTitlePassword">Password 변경</string>
+    <string name="prefSummaryPassword">FTP server password</string>
+    <string name="prefTitlePort">Port 변경</string>
+    <string name="prefSummaryPort">FTP server port</string>
+    
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.primftpd"
+    android:versionCode="9"
+    android:versionName="2.4-alpha" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.wifi" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/head"
+        android:label="  TOPF" >
+        <activity android:name=".intro"
+           		  android:theme="@style/AppBaseTheme"
+             	  android:label="  TOPF" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".PrimitiveFtpdActivity"
+            android:theme="@style/AppBaseTheme"
+            android:label="  TOPF" >
+        </activity>
+        
+        <activity
+            android:name=".FtpPrefsActivity"
+            android:theme="@style/AppBaseTheme"
+            android:label="  TOPF 환경설정" >
+        </activity>
+
+        <service android:name=".FtpServerService" />
+    </application>
+
+</manifest>
